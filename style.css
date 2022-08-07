@@ -121,7 +121,7 @@ nav ul{
  gap:2rem;
 }
 .grid-item{
-    text-align: left;
+    text-align: center;
     width: 90%;
     background: #fff;
     color: black;
@@ -130,6 +130,7 @@ nav ul{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 1px 1px 5px rgb(65, 65, 65);
 }
 .item1{
     margin-left: 2rem;
@@ -147,6 +148,12 @@ nav ul{
     align-items: center;
     justify-content: space-between;
 }
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
 .tweet-body{
     height: 100px;
     padding: 0 5%;
@@ -155,12 +162,23 @@ nav ul{
     font-size: 1rem;
 }
 .tweet-footer{
-    text-align: start;
+    width: 100%;
 }
-.profile{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.tweet-footer hr{
+    width: 90%;
+    margin: auto;
+    border-top-style:solid;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: rgb(174, 173, 173); 
+}
+.tweet-footer p{
+    text-align: start;
+    font-size: .9rem;
+    padding: 5px 0;
+    margin-left: 20px;
+    color: rgb(220, 214, 214);
 }
 
 
